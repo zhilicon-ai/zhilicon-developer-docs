@@ -1,0 +1,23 @@
+# CODEOWNERS — zhilicon-developer-docs (Class D: Public)
+
+# Default: Docs team owns all documentation
+*                           @zhilicon-ai/docs
+
+# SDK API reference: SDK team co-reviews for accuracy
+/docs/api-reference/        @zhilicon-ai/docs @zhilicon-ai/sdk
+/docs/getting-started/      @zhilicon-ai/docs @zhilicon-ai/sdk
+
+# Compiler guide: Compiler team co-reviews
+/docs/compiler/             @zhilicon-ai/docs @zhilicon-ai/compiler
+
+# Runtime guide: Runtime team co-reviews
+/docs/runtime/              @zhilicon-ai/docs @zhilicon-ai/runtime
+
+# Hardware overview: Architecture team co-reviews
+/docs/hardware/             @zhilicon-ai/docs @zhilicon-ai/architecture
+
+# Performance guide: SDK and ML Systems co-reviews
+/docs/performance/          @zhilicon-ai/docs @zhilicon-ai/sdk @zhilicon-ai/ml-systems
+
+# Release notes: Program Management co-reviews
+/docs/release-notes/        @zhilicon-ai/docs @zhilicon-ai/program-management
