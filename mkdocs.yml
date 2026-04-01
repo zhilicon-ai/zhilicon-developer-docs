@@ -1,0 +1,158 @@
+site_name: Zhilicon Developer Documentation
+site_description: Official SDK, API reference, and integration guides for the ZHI-1 AI chip
+site_url: https://developers.zhilicon.ai
+repo_name: zhilicon-ai/zhilicon-developer-docs
+repo_url: https://github.com/zhilicon-ai/zhilicon-developer-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: assets/favicon.png
+  logo: assets/logo.svg
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.action.edit
+    - content.action.view
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: date
+  - mike:
+      alias_type: symlink
+      canonical_version: latest
+
+extra:
+  version:
+    provider: mike
+    default: latest
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/zhilicon-ai
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/zhilicon
+    - icon: fontawesome/brands/stack-overflow
+      link: https://stackoverflow.com/questions/tagged/zhilicon
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - getting-started/index.md
+    - Installation: getting-started/installation.md
+    - Hello Inference: getting-started/hello-inference.md
+    - Device Setup: getting-started/device-setup.md
+    - Simulator: getting-started/simulator.md
+  - SDK Reference:
+    - api-reference/index.md
+    - Device API: api-reference/device.md
+    - Model API: api-reference/model.md
+    - Tensor API: api-reference/tensor.md
+    - Profiling API: api-reference/profiling.md
+    - Error Reference: api-reference/errors.md
+  - Compiler:
+    - compiler/index.md
+    - ONNX Ingestion: compiler/onnx-ingestion.md
+    - Quantization: compiler/quantization.md
+    - Graph Optimization: compiler/graph-optimization.md
+    - Compiler Flags: compiler/flags.md
+  - Runtime:
+    - runtime/index.md
+    - Memory Management: runtime/memory-management.md
+    - Multi-Device: runtime/multi-device.md
+    - Async Execution: runtime/async-execution.md
+    - Performance Tuning: runtime/performance-tuning.md
+  - Hardware:
+    - hardware/index.md
+    - ZHI-1 Overview: hardware/zhi1-overview.md
+    - Memory Map: hardware/memory-map.md
+    - PCIe Interface: hardware/pcie-interface.md
+    - Evaluation Board: hardware/eval-board.md
+  - Performance:
+    - performance/index.md
+    - Profiling Guide: performance/profiling-guide.md
+    - Throughput Optimization: performance/throughput.md
+    - Latency Optimization: performance/latency.md
+    - Power Optimization: performance/power.md
+  - Release Notes:
+    - release-notes/index.md
+    - SDK 1.1.x: release-notes/1.1.x.md
+    - SDK 1.0.x: release-notes/1.0.x.md
+  - Contributing: contributing.md

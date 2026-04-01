@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation Bug or Correction
+    url: https://github.com/zhilicon-ai/zhilicon-developer-docs/issues/new?template=doc_correction.yml
+    about: Report an error, outdated content, or missing information in the docs
+  - name: Request New Documentation
+    url: https://github.com/zhilicon-ai/zhilicon-developer-docs/issues/new?template=doc_request.yml
+    about: Request coverage of a feature, use case, or integration not yet documented
+  - name: SDK Bug Report
+    url: https://github.com/zhilicon-ai/zhilicon-sdk/issues
+    about: Report bugs in the SDK itself (not the documentation)
+  - name: Developer Forum
+    url: https://developers.zhilicon.ai/forum
+    about: Ask questions and discuss with the community
