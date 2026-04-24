@@ -1,0 +1,77 @@
+Zhilicon Portfolio — License Notice
+====================================
+
+Copyright (c) Zhilicon Semiconductors. All rights reserved.
+
+This repository contains a mixture of materials licensed under different terms.
+Use of any file or directory is governed by the license that applies to that
+specific path, as set out below. Where a subdirectory contains its own LICENSE
+file, that LICENSE controls for everything inside it.
+
+1. Proprietary and confidential (default)
+-----------------------------------------
+
+Unless stated otherwise in a subdirectory LICENSE, all material in this
+repository — including architecture specifications, verification artefacts,
+physical-design methodology, RTL sources, firmware, drivers, compiler and
+runtime sources, chip programs, governance artefacts, and internal tooling — is
+the confidential and proprietary work product of Zhilicon Semiconductors and
+its contributors.
+
+No part of this material may be copied, redistributed, modified, published, or
+used to derive any work without the prior written permission of Zhilicon
+Semiconductors. Access to this repository does not grant any license, express
+or implied, to any Zhilicon patent, copyright, trademark, trade secret, or
+other intellectual property right.
+
+2. Open-source and third-party components
+-----------------------------------------
+
+Specific subdirectories are released under recognised open-source licences
+(Apache 2.0, BSD-3-Clause, MIT, etc.). Those directories carry their own
+LICENSE file and, where applicable, an accompanying NOTICE file enumerating
+third-party contributions. The open-source LICENSE applies to everything
+inside that directory and supersedes the default proprietary notice above.
+
+A non-exhaustive inventory:
+
+- github-org-setup/zhilicon-sdk-examples/LICENSE  — Apache 2.0
+- github-org-setup/zhilicon-benchmarks/LICENSE    — Apache 2.0
+- (add further entries as additional open-source components are published)
+
+3. Trademarks
+-------------
+
+"Zhilicon", the Zhilicon logo, "Discovery-1", "Horizon-1", "Nexus-1",
+"Sentinel-1", "Prometheus", "ZLink", "ZCCL", "ZDNN", "ZBLAS", and related marks
+are trademarks of Zhilicon Semiconductors. All other trademarks are the
+property of their respective owners. Nothing in this repository grants a
+licence to use any Zhilicon trademark.
+
+4. Security disclosure
+----------------------
+
+Security vulnerabilities must be reported through the private channel set out
+in SECURITY.md. Do not publish vulnerability reports in public issues or pull
+requests.
+
+5. Contributions
+----------------
+
+Contributions are accepted only under the terms set out in CONTRIBUTING.md.
+Every commit must carry a Developer Certificate of Origin sign-off from a
+natural person. Contributions to proprietary areas additionally require a
+signed contributor agreement; the maintainers will route contributors through
+that process before merge.
+
+6. Warranty disclaimer
+----------------------
+
+THIS REPOSITORY AND ITS CONTENTS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO
+EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES,
+OR OTHER LIABILITY ARISING FROM OR IN CONNECTION WITH THE USE OR DISTRIBUTION
+OF THIS REPOSITORY.
+
+Questions about licensing should be directed to legal@zhilicon.com.
