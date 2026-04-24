@@ -1,6 +1,7 @@
 # zhilicon-developer-docs
 
 [![CI](https://github.com/zhilicon-ai/zhilicon-developer-docs/actions/workflows/ci.yml/badge.svg)](https://github.com/zhilicon-ai/zhilicon-developer-docs/actions/workflows/ci.yml)
+[![Release](https://img.shields.io/github/v/release/zhilicon-ai/zhilicon-developer-docs?include_prereleases&label=release)](https://github.com/zhilicon-ai/zhilicon-developer-docs/releases)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
 [![Docs](https://img.shields.io/badge/docs-developers.zhilicon.ai-brightgreen)](https://developers.zhilicon.ai)
 
