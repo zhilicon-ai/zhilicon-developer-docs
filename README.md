@@ -1,11 +1,34 @@
-# zhilicon-developer-docs
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zhilicon-ai/.github/main/profile/assets/zhilicon-logo-dark.png" width="320">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/zhilicon-ai/.github/main/profile/assets/zhilicon-logo-light.png" width="320">
+  <img alt="Zhilicon" src="https://raw.githubusercontent.com/zhilicon-ai/.github/main/profile/assets/zhilicon-logo-light.png" width="320">
+</picture>
+
+# Zhilicon Developer Documentation
+
+### Public developer documentation for the Zhilicon portfolio — MkDocs Material source + 29 Architecture Decision Records.
 
 [![CI](https://github.com/zhilicon-ai/zhilicon-developer-docs/actions/workflows/ci.yml/badge.svg)](https://github.com/zhilicon-ai/zhilicon-developer-docs/actions/workflows/ci.yml)
-[![Release](https://img.shields.io/github/v/release/zhilicon-ai/zhilicon-developer-docs?include_prereleases&label=release)](https://github.com/zhilicon-ai/zhilicon-developer-docs/releases)
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](LICENSE)
-[![Docs](https://img.shields.io/badge/docs-developers.zhilicon.ai-brightgreen)](https://developers.zhilicon.ai)
+[![Release](https://img.shields.io/github/v/release/zhilicon-ai/zhilicon-developer-docs?include_prereleases&sort=semver&color=0d1117&label=release)](https://github.com/zhilicon-ai/zhilicon-developer-docs/releases/latest)
+[![Last Commit](https://img.shields.io/github/last-commit/zhilicon-ai/zhilicon-developer-docs?color=0d1117&label=last%20commit)](https://github.com/zhilicon-ai/zhilicon-developer-docs/commits/main)
+[![Portfolio](https://img.shields.io/badge/Zhilicon-v0.2.0-0d1117)](https://github.com/zhilicon-ai)
 
-Source repository for [developers.zhilicon.ai](https://developers.zhilicon.ai) — the public developer documentation for the Zhilicon AI Chip SDK.
+[![ADRs](https://img.shields.io/badge/ADRs-29_records-0d1117)](docs/adr)
+[![MkDocs](https://img.shields.io/badge/mkdocs-material-526CFE?logo=materialformkdocs&logoColor=white)](https://squidfunk.github.io/mkdocs-material/)
+
+</div>
+
+---
+
+<p align="center">
+  <a href="https://github.com/zhilicon-ai"><strong>Portfolio</strong></a>&nbsp;·&nbsp;
+  <a href="https://github.com/zhilicon-ai/zhilicon-sdk"><strong>SDK</strong></a>&nbsp;·&nbsp;
+  <a href="https://github.com/zhilicon-ai/zhilicon-sdk-examples"><strong>Examples</strong></a>&nbsp;·&nbsp;
+  <a href="https://github.com/zhilicon-ai/zhilicon-developer-docs"><strong>Developer Docs</strong></a>&nbsp;·&nbsp;
+  <a href="https://github.com/zhilicon-ai/zhilicon-developer-docs/releases"><strong>Releases</strong></a>
+</p>
 
 ---
 
