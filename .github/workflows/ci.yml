@@ -54,7 +54,7 @@ jobs:
       - name: Build site
         run: mkdocs build
       - name: Check links
-        uses: lycheeverse/lychee-action@v1
+        uses: lycheeverse/lychee-action@v2
         with:
           args: |
             --verbose
